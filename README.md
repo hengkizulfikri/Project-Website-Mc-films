@@ -38,3 +38,7 @@ git clone https://github.com/yourusername/mc-films.git
 cd mc-films
 npm install
 npm run start
+<<<<<<< HEAD
+=======
+# Project-Website-Mc-films
+>>>>>>> f39861df286922b4e077de437333a2c4eb5eadf5
