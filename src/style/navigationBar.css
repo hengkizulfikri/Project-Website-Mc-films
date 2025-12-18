@@ -1,0 +1,64 @@
+/* NAVBAR */
+.custom-navbar {
+  background-color: rgba(0, 0, 0, 0.6);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+.custom-navbar a:hover {
+  transform: translateY(3px);
+  color: #bc4c1c;
+}
+
+/* TOGGLE ICON */
+.menu-toggle {
+  color: white;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.menu-toggle:hover {
+  transform: rotate(180deg);
+}
+
+/* MOBILE MENU SLIDE TOP */
+.mobile-menu {
+  position: fixed;
+  top: -100%;
+  left: 0;
+  width: 100%;
+  height: 50vh;
+  background: transparent;
+  padding: 80px 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  transition: top 0.4s ease;
+  z-index: 999;
+}
+
+.mobile-menu.active {
+  top: 0;
+}
+
+/* MENU ITEM */
+.mobile-menu a {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.mobile-menu a:hover {
+  transform: translateX(10px);
+  color: #bc4c1c;
+}
+
+/* OVERLAY */
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 998;
+}

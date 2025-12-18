@@ -1,0 +1,101 @@
+.myBG {
+    height: 100vh;
+    background: url("../assets/images/bg/main.jpg");
+    background-size: cover;
+}
+
+.intro {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.tentang {
+    height: 100vh;
+    background: url("../assets/images/bg/Marvel.jpg");
+    background-size: cover;
+}
+
+.title {
+    font-size: 3rem;
+    font-weight: 800;
+    line-height: 1;
+    text-shadow: 2px 2px black;
+    letter-spacing: 4px;
+}
+.tentangText {
+    font-size: 1.3rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-shadow: 2px 2px black;
+    letter-spacing: 1.5px;
+}
+
+.trending {
+    height: auto;
+    background: url("../assets/images/bg/scifi.jpg");
+    background-size: cover;
+}
+
+.upcoming {
+    height: auto;
+    background: url("../assets/images/bg/romance.jpg");
+    background-size: cover;
+}
+
+
+
+.movieImage {
+    height: auto;
+    background-color: black;
+    margin: 5px;
+    padding: 5px;
+}
+
+.images {
+    height: 350px;
+
+}
+
+.scroll-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #0b5ed7; /* biru bootstrap */
+  color: white;
+  padding: 12px 14px;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 999;
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.25);
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+  opacity: 1;
+}
+
+.scroll-to-top:hover {
+  background: #03132b;
+  transform: translateY(-3px);
+}
+
+/* Animasi muncul */
+.scroll-to-top {
+  animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.menu-icon {
+  display: inline-flex;
+  cursor: pointer;
+  user-select: none;
+  transition: 
+    transform 0.4s ease,
+    box-shadow 0.4s ease,
+    color 0.4s ease;
+}
+
+

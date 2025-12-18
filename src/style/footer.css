@@ -1,0 +1,33 @@
+.footer-minimal {
+  background: #000;
+  color: #bbb;
+  padding: 14px 0;
+  border-top: 1px solid #222;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  font-size: 14px;
+}
+
+/* TMDB CREDIT */
+.footer-center a {
+  color: #01b4e4; /* warna khas TMDB */
+  text-decoration: none;
+}
+
+.footer-center a:hover {
+  text-decoration: underline;
+}
+
+
+/* MOBILE */
+@media (max-width: 576px) {
+  .footer-content {
+    flex-direction: column;
+    gap: 8px;
+  }
+}
